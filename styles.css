@@ -1,0 +1,224 @@
+html, body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    height: 100%;
+}
+body {
+    background-color: #111111;
+    color: #dddddd;
+    margin: 0;
+    display: block;
+    margin: 1vw;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #eeffff;
+    border-bottom: 1px solid #777777;
+}
+.page_name {
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif 4',serif;
+    font-weight: normal;
+    padding: 0.5em 0 0 0;
+    margin: 0.5em 0 0.5em 0;
+}
+b {
+    color: #ffffff;
+}
+p {
+    display: block;
+    margin: 0.5em 0 1em 0;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    unicode-bidi: isolate;
+}
+
+table {
+    font-family: 'Helvetica', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.infographic_table {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #909090;
+    text-align: left;
+    padding: 6px;
+    text-overflow: clip;
+}
+th {
+    background-color: #484848;
+    text-align: center;
+}
+td {
+    background-color: #363636;
+    text-align: left;
+}
+
+.no_wrap {
+    white-space: nowrap;
+}
+button.headerSortButton {
+    appearance: auto;
+    font-style: unset;
+    font-variant-ligatures: unset;
+    font-variant-caps: unset;
+    font-variant-numeric: unset;
+    font-variant-east-asian: unset;
+    font-variant-alternates: unset;
+    font-variant-position: unset;
+    font-variant-emoji: unset;
+    font-stretch: unset;
+    font-size: unset;
+    font-family: unset;
+    font-weight: unset;
+    font-optical-sizing: unset;
+    font-size-adjust: unset;
+    font-kerning: unset;
+    font-feature-settings: unset;
+    font-variation-settings: unset;
+    font-language-override: unset;
+    text-rendering: unset;
+    color: unset;
+    letter-spacing: unset;
+    word-spacing: unset;
+    line-height: unset;
+    text-transform: unset;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: unset;
+    padding-block: 0px;
+    padding-inline: 0px;
+    border-width: 0px;
+    border-style: unset;
+    border-color: unset;
+    border-image: unset;
+}
+/* tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+} */
+.right_side_infographic {
+    width: 20%;
+    margin: 0.5em 0 0.5em 0.5em;
+    clear: right;
+    float: right;
+}
+.left_side_infographic {
+    width: 20%;
+    margin: 0.5em 0.5em 0.5em 0;
+    clear: left;
+    float: left;
+}
+pre {
+    background-color: #333333;
+    text-wrap: wrap;
+    font-size: 110%;
+}
+a {
+    color: #88AAFF;
+    text-decoration: underline;
+    background-color: #88AAFF11;
+    border-radius: 0.32vh 0.32vh 0.32vh 0.32vh;
+}
+a:hover {
+    background-color: #88AAFF55;
+    text-decoration: underline dotted;
+}
+
+a:visited {
+    color: #BB99FF;
+    text-decoration: none;
+    background-color: #BB99FF11;
+}
+a:visited:hover {
+    background-color: #BB99FF55;
+}
+.a_image {
+    background-color: #00000000;
+}
+
+.section_label {
+    color: #eeffff;
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif 4',serif;
+    font-weight: normal;
+    padding: 0.5em 0 0 0;
+    margin: 0.25em 0 0.25em 0;
+}
+.subsection_label {
+    color: #eeffff;
+    padding: 0.5em 0 0 0;
+    margin: 0.5em 0 0.5em 0;
+}
+ul,ol {
+    padding: 0 0 0 25px;
+}
+li {
+    margin: 0.25em 0 0.25em 0;
+}
+#see_also_notice {
+    background-color: #323232;
+    padding: 0.25em 0 0.25em 0.25em;
+    margin: 0 0 0.5em 0;
+}
+#main {
+    position: absolute;
+    left: 16%;
+    width: 68%;
+}
+#side_info {
+    position: absolute;
+    right: 1.5%;
+    width: 13%;
+}
+#navigation {
+    left: 1.5%;
+    width: 13%;
+    position: fixed;
+    top: 24px;
+    --radius-full: 9999px;
+}
+#page_options {
+    position: fixed;
+    right: 1.5%;
+    width: 13%;
+}
+.nav_list_item {
+    margin: 0.5em 0 0.5em 0;
+}
+.sub_nav_list_item {
+    margin: 0.25em 0 0.25em 0;
+}
+#temperature_td {
+    color: #000000;
+}
+.image_legend_box {
+    forced-color-adjust: none;
+    display: inline-block;
+    min-width: 1.1em;
+    height: 1.1em;
+    line-height: 1.1;
+    margin: 1px 0;
+    text-align: center;
+    border: 1px solid black;
+    background-color: unset;
+    color: unset;
+    cursor: help;
+}
+.pronunciation_guide {
+    text-decoration: dotted underline;
+}
+abbr {
+    cursor: help;
+}
+caption {
+    font-weight: bold;
+}
